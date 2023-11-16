@@ -1,0 +1,279 @@
+.navbar{
+    background-color:#0a0b27;
+    z-index: 999;
+}
+.nav-link p{
+    margin: 0px 10px;
+    font-family:Helvetica Neue",Helvetica,Arial,sans-serif";
+}
+.nav-link p:hover{
+    color: orangered;
+    transition: 0.6s;
+}
+@media screen and (min-width:992px){
+
+    .collapse{
+    display: flex;
+    justify-content:end;
+    }  
+
+}
+#drop-color:hover{
+   color: yellowgreen;
+}
+.collapse{
+    display: flex;
+    justify-content: none;
+}
+.bg-nav{
+    background-color: orangered;
+}
+.page-center-text{
+    font-family:Helvetica Neue",Helvetica,Arial,sans-serif";
+    font-size: x-large;
+    text-align: left;
+    
+}
+.footer-text p{
+    font-family:sans-serif;
+    font-size: smaller;
+}   
+
+.footer-text{
+    align-items: center;
+}
+
+footer{
+    height: 300px;   
+}
+
+.footer-div-2 a,.footer-div-3 a{
+     text-decoration: none;
+     color: #000000;
+     font-weight: bolder;
+}
+.footer-div-2 a:hover,.footer-div-3 a:hover{
+    color:rgb(255, 9, 9);
+   
+} 
+.footer-div-1{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.footer-div-2,.footer-div-3{
+    padding-top: 50px;
+   padding-left: 20px;
+   padding-bottom: 10px;
+} 
+.spin-div{
+     max-width: 100%;
+     height: 999px;
+     background:black;
+     position: relative;
+     
+}
+@media screen and (max-width:768px ) {
+    .footer-div-2,.footer-div-3{
+        padding-top: 10px;
+       
+    } 
+}
+#leaf{
+    max-width: 133px;
+    margin-top: 261px;
+    margin-left: 203px;
+
+}
+.fizz{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 800;
+    font-family: "EksellDisplayWeb-Small";
+    letter-spacing: 3px;
+    top: 550px;
+    left: 150px;
+
+    
+}
+@media screen and (max-width:700px) {
+     
+    #leaf{
+        max-width: 150px;
+        margin-top: 300px;
+        margin-left: 250px;
+    
+    }
+    .fizz{
+        text-align: center;
+        font-size: 60px;
+        font-weight: 800;
+        top: 425px;
+        left: 120px;
+    
+        
+    }
+}
+@media screen and (max-width:600px) {
+     
+    #leaf{
+        max-width: 120px;
+        margin-top: 290px;
+        margin-left: 250px;
+    
+    }
+    .fizz{
+        text-align: center;
+        font-size: 85px;
+        font-weight: 800;
+        top: 350px;
+        left: 20px;
+    
+        
+    }
+}
+@media screen and (max-width:470px) {
+     
+    #leaf{
+        max-width: 100px;
+        margin-top: 300px;
+        margin-left: 150px;
+    
+    }
+    .fizz{
+        text-align: center;
+        font-size: 80px;
+        font-weight: 800;
+        top: 350px;
+        left: 20px;
+    
+        
+    }
+}
+@media screen and (max-width:400px) {
+     
+    #leaf{
+        max-width: 90px;
+        margin-top: 250px;
+        margin-left: 115px;
+    
+    }
+    .fizz{
+        text-align: center;
+        font-size: 60px;
+        font-weight: 800;
+        top: 320px;
+        left: 20px;
+    
+        
+    }
+}
+@media screen and (max-width:295px) {
+     
+    #leaf{
+        max-width: 90px;
+        margin-top: 300px;
+        margin-left: 90px;
+    
+    }
+    .fizz{
+        text-align: center;
+        font-size: 60px;
+        font-weight: 800;
+        top: 320px;
+        left: 20px;
+    
+        
+    }
+}
+@media screen and (min-width:700px) {
+     
+    #leaf{
+        max-width: 150px;
+        margin-top: 300px;
+        margin-left: 300px;
+    
+    }
+    .fizz{
+        text-align: center;
+        font-size: 110px;
+        font-weight: 800;
+        top: 370px;
+        left: 60px;
+    
+        
+    }
+}
+@media screen and (min-width:900px) {
+     
+    #leaf{
+        max-width: 200px;
+        margin-top: 250px;
+        margin-left: 350px;
+    
+    }
+    .fizz{
+        text-align: center;
+        font-size: 150px;
+        font-weight: 800;
+        top: 350px;
+        left: 70px;
+    
+        
+    }
+}
+@media screen and (min-width:1000px) {
+     
+    #leaf{
+        max-width: 150px;
+        margin-top: 300px;
+        margin-left: 170px;
+    
+    }
+    .fizz{
+        text-align: center;
+        font-size: 80px;
+        font-weight: 800;
+        top: 400px;
+        left: 20px;
+    
+        
+    }
+}
+@media screen and (min-width:1200px) {
+     
+    #leaf{
+        max-width: 150px;
+        margin-top: 300px;
+        margin-left: 250px;
+    
+    }
+    .fizz{
+        text-align: center;
+        font-size: 100px;
+        font-weight: 800;
+        top: 400px;
+        left: 20px;
+    
+        
+    }
+}
+@media screen and (min-width:1500px) {
+     
+    #leaf{
+        max-width: 200px;
+        margin-top: 210px;
+        margin-left: 350px;
+    
+    }
+    .fizz{
+        text-align: center;
+        font-size: 100px;
+        font-weight: 800;
+        top: 400px;
+        left: 100px;
+    
+        
+    }
+}
